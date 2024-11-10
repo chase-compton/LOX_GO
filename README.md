@@ -132,9 +132,12 @@ LOX_GO is built with Go, so you’ll need to install Go on your system to run th
 
    ```bash
    go mod init lox
+   // The above will force you to change imports in various files
+   go mod init github.com/chase-compton/LOX/GO
+   // This should prevent needing to change import paths
    ```
 
-3. Might have to change import paths in the source files to match the module name.
+3. Might have to change import paths in the source files to match the module name depending on your `go mod init`.
 
    Example: Change `import "github.com/chase-compton/LOX_GO/parser"` to `import "lox/parser"` in the source files.
 
