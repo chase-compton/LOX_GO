@@ -1,4 +1,4 @@
-# LOX GO - A LOX Interpreter in Golang
+# LOX GO - A LOX Interpreter in Golang by Chase Compton & Samy Paul
 
 An implementation of the LOX interpreter in Golang. This project is based on the book "Crafting Interpreters" by Bob Nystrom. The LOX language is a dynamically typed, object-oriented programming language.
 
