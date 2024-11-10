@@ -1,0 +1,2 @@
+class Foo {}
+Foo.bar = "value"; // Error runtime error: Only instances have fields.

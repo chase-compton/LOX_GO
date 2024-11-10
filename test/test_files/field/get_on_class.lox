@@ -1,0 +1,2 @@
+class Foo {}
+Foo.bar; // Error runtime error: Only instances have properties.

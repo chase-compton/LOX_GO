@@ -1,0 +1,1 @@
+"s" + nil; // Error: Operands must be two numbers or two strings.
